@@ -52,6 +52,7 @@ function taxCalxulator(percentage){
 }
 
 var executeable = taxCalxulator(25);
+executeable
 console.log(executeable(25000));
 
 
@@ -61,4 +62,6 @@ const fetch = require('node-fetch');
 fetch('https://api.github.com/users')
     .then(res=>res.json())
     .then(json=>console.log(json));
+
+
 
